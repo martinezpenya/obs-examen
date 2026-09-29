@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    overflow: hidden;
+    font-family: 'Courier New', Consolas, monospace;
+  }
+  #caja {
+    position: fixed;
+    top: 8px;
+    left: 8px;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.55);
+    color: #ffffff;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 30px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.35);
+  }
+</style>
+</head>
+<body>
+  <div id="caja">00:00:00</div>
+  <script>
+    function tick() {
+      const d = new Date();
+      const p = n => String(n).padStart(2, '0');
+      document.getElementById('caja').textContent =
+        `${p(d.getHours())}:${p(d.getMinutes())}:${p(d.getSeconds())}`;
+    }
+    tick();
+    setInterval(tick, 1000);
+  </script>
+</body>
+</html>
