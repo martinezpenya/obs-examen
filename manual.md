@@ -117,5 +117,5 @@ Lo único que debes revisar es la carpeta donde se guardará la grabación:
 4. Al terminar, pulsa **Detener grabación**.
 5. Sube el archivo de vídeo resultante (está en la carpeta que elegiste en el paso 4) junto con la solución del examen, tal como te indique tu profesor/a.
 
-⚠️ Si la grabación es muy larga, OBS la divide automáticamente en varios archivos (cada uno de unos 250 MB, lo que equivale a más de 3 horas de grabación). En ese caso tendrás varios vídeos con la fecha y hora en el nombre: **súbelos todos**, no solo el último.
+⚠️ OBS divide automáticamente la grabación en varios archivos de unos 45 MB (unos 40 minutos de grabación cada uno), porque Aules no admite ficheros de más de 50 MB. En un examen de más de 40 minutos tendrás varios vídeos con la fecha y hora en el nombre: **súbelos todos**, no solo el último.
 

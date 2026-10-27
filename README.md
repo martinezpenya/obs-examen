@@ -31,7 +31,7 @@ El alumnado solo tiene que importar la plantilla, escribir su nombre y elegir d�
 | Resolución | Lienzo 1920×1080, salida 1280×720 | Se lee el texto de la pantalla sin disparar el tamaño del archivo |
 | Formato | MP4 híbrido | Si OBS se cierra de golpe, el vídeo se sigue pudiendo abrir, y se reproduce en cualquier sitio (necesita OBS 30.2 o posterior) |
 | Bitrate de vídeo | 150 kbps (x264, CBR) | Unos 65 MB por hora de examen |
-| División de archivos | Cada 250 MB (más de 3 horas) | En la práctica sale un solo archivo por examen; el manual avisa de que, si salen varios, se suban todos |
+| División de archivos | Cada 45 MB (unos 40 minutos) | Aules no admite ficheros de más de 50 MB por entrega (límite del sitio, no del curso). Un examen largo genera varios archivos; el manual avisa de que se suban todos y la tarea del examen debe admitir varios ficheros |
 | Audio | Sin fuentes de audio | No se graba sonido; el MP4 lleva una pista en silencio (FFmpeg AAC) |
 | Reloj | HTML incrustado como URL `data:` | No depende de rutas de archivo ni de conexión a internet |
 | Ruta de grabación | Sin fijar | Cada estudiante elige su carpeta (paso 4 del manual) |
